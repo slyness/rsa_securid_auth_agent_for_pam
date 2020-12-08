@@ -1,0 +1,20 @@
+{
+  "name": "rsa_securid_auth_agent_for_pam",
+  "version": "0.1.15",
+  "author": "slyness",
+  "summary": "This module configures the RSA SecurID Authentication Agent for PAM.",
+  "license": "Apache-2.0",
+  "source": "",
+  "project_page": "",
+  "issues_url": "",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.6.0 < 5.0.0"}
+  ],
+  "data_provider": null,
+  "operatingsystem_support": [
+    {
+      "operatingsystem":"RedHat",
+      "operatingsystemrelease":[ "7.0" ]
+    }
+  ]
+}
